@@ -1,4 +1,3 @@
-
 <?php
 // Loads the rating engine!
 $ratings = new gonzo_user_rating();
@@ -310,6 +309,11 @@ $url = (!empty($_SERVER['HTTPS'])) ? "https://" . $_SERVER['SERVER_NAME'] . $_SE
 
 <br class="clear"/>
 
+<object type="application/x-shockwave-flash" onmouseup="document.location='http://mmo-it.com/u6'" height=79 width=620>
+  <param name="wmode" value="transparent" />
+  <param name="movie" value="http://gamehaunt.com/worldoftanks468.swf" />
+</object>
+
 <div class="omc-authorbox">
 
     <h4><?php _e('About the Author', 'gonzo');?></h4>
@@ -457,5 +461,4 @@ $url = (!empty($_SERVER['HTTPS'])) ? "https://" . $_SERVER['SERVER_NAME'] . $_SE
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
-
 
